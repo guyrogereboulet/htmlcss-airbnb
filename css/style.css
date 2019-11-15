@@ -14,11 +14,6 @@ body {
   width: 100%;
 }
 
-.container:hover .roma{
-  cursor: pointer;
-  opacity: 0,5;
-}
-
 
 .capitale {
   position: relative;
@@ -42,6 +37,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.capitale:hover .layover {
+  cursor: pointer;
+  opacity: 0;
 }
 .copenaghen {
   background-image: url(../img/copenaghen.jpg);
