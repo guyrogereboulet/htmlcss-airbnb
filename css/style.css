@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 0;s
+  padding: 0;
   margin: 0;
 }
 
@@ -14,9 +14,15 @@ body {
   width: 100%;
 }
 
+.container:hover .roma{
+  cursor: pointer;
+  opacity: 0,5;
+}
+
+
 .capitale {
   position: relative;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .title {
@@ -24,9 +30,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50% );
-  font-size: 8em;
+  font-size: 3em;
   color: white;
-  text-shadow: 5px 10px 8px #888888;
+  text-shadow: 5px 5px 5px #888888;
 }
 /* Sfondo citta */
 .roma {
