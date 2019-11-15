@@ -1,0 +1,65 @@
+*/{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;s
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.capitale {
+  position: relative;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50% );
+  font-size: 8em;
+  color: white;
+  text-shadow: 5px 10px 8px #888888;
+}
+/* Sfondo citta */
+.roma {
+  background-image: url(../img/roma.jpg);
+  width: 100%;
+  height: calc(100vh - 10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.copenaghen {
+  background-image: url(../img/copenaghen.jpg);
+  width: 100%;
+  height: calc(100vh - 10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tokyo {
+  background-image: url(../img/tokyo.jpg);
+  width: 100%;
+  height: calc(100vh - 10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
